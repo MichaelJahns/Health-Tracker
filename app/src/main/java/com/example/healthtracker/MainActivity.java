@@ -64,5 +64,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onCourierCarousel(View view){
+        Intent intent = new Intent(this, carouselActivity.class);
+        startActivity(intent);
+    }
+
 }
 
