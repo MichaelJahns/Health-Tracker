@@ -1,4 +1,4 @@
-package com.example.healthtracker.preferences;
+package com.example.healthtracker;
 
 import android.app.Activity;
 import android.content.Context;
