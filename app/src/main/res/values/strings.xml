@@ -7,4 +7,5 @@
     <string name="record">Record</string>
     <string name="describe_the_exercise">Describe the exercise</string>
     <string name="how_long_did_you_exercise">How long did you exercise?</string>
+    <string name="preferences_file">my-prefs</string>
 </resources>
