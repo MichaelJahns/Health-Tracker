@@ -28,7 +28,7 @@ public class EntryLayoutAdapter extends RecyclerView.Adapter<EntryLayoutAdapter.
         public void setEntry(Entry entry){
             this.textDescription.setText(String.format("%s", entry.getDescription()));
             this.textLength.setText(String.format("%s", entry.getLength()));
-            this.textDescription.setText(String.format("%d", entry.getMood()));
+            this.textMood.setText(String.format("%d", entry.getMood()));
         }
     }
 
