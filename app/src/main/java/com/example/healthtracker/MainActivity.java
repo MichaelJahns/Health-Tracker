@@ -69,5 +69,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onCourierStream(View view){
+        Intent intent = new Intent(this, streamEntryActivity.class);
+        startActivity(intent);
+    }
+
 }
 
