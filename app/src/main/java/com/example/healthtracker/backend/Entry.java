@@ -1,4 +1,4 @@
-package com.example.healthtracker;
+package com.example.healthtracker.backend;
 
 import androidx.room.Entity;
 import androidx.room.Ignore;

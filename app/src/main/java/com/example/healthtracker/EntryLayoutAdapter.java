@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.healthtracker.backend.Entry;
+
 import java.util.List;
 
 public class EntryLayoutAdapter extends RecyclerView.Adapter<EntryLayoutAdapter.EntryHolder> {

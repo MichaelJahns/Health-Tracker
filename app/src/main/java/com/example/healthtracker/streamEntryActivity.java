@@ -7,7 +7,8 @@ import androidx.room.Room;
 
 import android.os.Bundle;
 
-import java.util.ArrayList;
+import com.example.healthtracker.backend.Entry;
+
 import java.util.List;
 
 public class streamEntryActivity extends AppCompatActivity {
