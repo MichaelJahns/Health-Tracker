@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".preferencesActivity"></activity>
+        <activity android:name=".locationActivity"></activity>
+        <activity android:name=".preferencesActivity" />
         <activity android:name=".streamEntryActivity" />
         <activity android:name=".carouselActivity" />
         <activity android:name=".diaryActivity" />

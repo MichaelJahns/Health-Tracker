@@ -24,4 +24,10 @@
     <string name="please_enter_your_name">S\'il vous plaît entrez votre nom </string>
     <string name="welcome_back_user">Bienvenue, utilisateur.</string>
     <string name="button">Buton</string>
+    <string name="my_coordinates">mes coordonnées</string>
+    <string name="location">emplacement</string>
+
+
+
+
 </resources>

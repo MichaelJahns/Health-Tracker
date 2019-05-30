@@ -81,5 +81,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onCourierLocation(View view){
+        Intent intent = new Intent(this, locationActivity.class);
+        startActivity(intent);
+    }
+
 }
 

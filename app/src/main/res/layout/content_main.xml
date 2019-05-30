@@ -73,4 +73,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/courierStream"
         app:layout_constraintTop_toBottomOf="@+id/courierStream" />
+
+    <Button
+        android:id="@+id/courierLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onCourierLocation"
+        android:text="@string/location"
+        app:layout_constraintEnd_toEndOf="@+id/courierPreferences"
+        app:layout_constraintStart_toStartOf="@+id/courierPreferences"
+        app:layout_constraintTop_toBottomOf="@+id/courierPreferences" />
 </androidx.constraintlayout.widget.ConstraintLayout>

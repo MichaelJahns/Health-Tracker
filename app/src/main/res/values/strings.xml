@@ -24,4 +24,6 @@
     <string name="please_enter_your_name">Please Enter your Name</string>
     <string name="welcome_back_user">Welcome back, User.</string>
     <string name="button">Button</string>
+    <string name="my_coordinates">myCoordinates</string>
+    <string name="location">Location</string>
 </resources>
