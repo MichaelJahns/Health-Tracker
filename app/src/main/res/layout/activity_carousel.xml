@@ -15,6 +15,6 @@
        app:slideInterval="4000"
        app:radius="6dp"
        app:strokeWidth="6dp"
-       app:strokeColor="#FF77777777"
+       app:strokeColor="#FF777777"
        android:id="@+id/carousel"/>
 </RelativeLayout>

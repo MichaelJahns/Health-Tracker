@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">réglage</string>
+    <string name="carousel">Carrousel</string>
+    <string name="click_here">"Cliquez ici! "</string>
+    <string name="clicker">Clicker</string>
+    <string name="describe_the_exercise">"Décrivez l'exercice "</string>
+    <string name="description">La description</string>
+    <string name="how_are_you_feeling">Comment allez-vous?</string>
+    <string name="how_long_did_you_exercise">Combien de temps avez-vous exercé?</string>
+    <string name="length">Longueur</string>
+    <string name="mood">Ambiance</string>
+    <string name="preferences">Préférences</string>
+    <string name="preferences_file">mes-prefs</string>
+    <string name="record">Record</string>
+    <string name="record_online">Enregistrer en ligne</string>
+    <string name="stream">courant</string>
+    <string name="_1">1</string>
+    <string name="_0">0</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="please_enter_your_name">S\'il vous plaît entrez votre nom </string>
+    <string name="welcome_back_user">Bienvenue, utilisateur.</string>
+    <string name="button">Buton</string>
+    <string name="my_coordinates">mes coordonnées</string>
+    <string name="location">emplacement</string>
+
+
+
+
+</resources>

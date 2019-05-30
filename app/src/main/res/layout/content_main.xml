@@ -42,9 +42,46 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:onClick="onCourierCarousel"
-        android:text="Carousel"
+        android:text="@string/carousel"
         app:layout_constraintEnd_toEndOf="@+id/courierDiary"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/courierDiary"
         app:layout_constraintTop_toBottomOf="@+id/courierDiary" />
+
+    <Button
+        android:id="@+id/courierStream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="onCourierStream"
+        android:text="@string/stream"
+        app:layout_constraintEnd_toEndOf="@+id/courierCarousel"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/courierCarousel"
+        app:layout_constraintTop_toBottomOf="@+id/courierCarousel" />
+
+    <Button
+        android:id="@+id/courierPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onCourierPreferences"
+        android:text="@string/preferences"
+        app:layout_constraintEnd_toEndOf="@+id/courierStream"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/courierStream"
+        app:layout_constraintTop_toBottomOf="@+id/courierStream" />
+
+    <Button
+        android:id="@+id/courierLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="onCourierLocation"
+        android:text="@string/location"
+        app:layout_constraintEnd_toEndOf="@+id/courierPreferences"
+        app:layout_constraintStart_toStartOf="@+id/courierPreferences"
+        app:layout_constraintTop_toBottomOf="@+id/courierPreferences" />
 </androidx.constraintlayout.widget.ConstraintLayout>

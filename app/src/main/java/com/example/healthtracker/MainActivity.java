@@ -15,6 +15,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    public final static String NAME_KEY = "user-name";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +68,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void onCourierCarousel(View view){
         Intent intent = new Intent(this, carouselActivity.class);
+        startActivity(intent);
+    }
+
+    public void onCourierStream(View view){
+        Intent intent = new Intent(this, streamEntryActivity.class);
+        startActivity(intent);
+    }
+
+    public void onCourierPreferences(View view){
+        Intent intent = new Intent(this, preferencesActivity.class);
+        startActivity(intent);
+    }
+
+    public void onCourierLocation(View view){
+        Intent intent = new Intent(this, locationActivity.class);
         startActivity(intent);
     }
 
