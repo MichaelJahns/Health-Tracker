@@ -55,35 +55,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="1" />
+            android:text="@string/_1" />
 
         <RadioButton
             android:id="@+id/radioTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2" />
+            android:text="@string/_2" />
 
         <RadioButton
             android:id="@+id/radioThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="3" />
+            android:text="@string/_3" />
 
         <RadioButton
             android:id="@+id/radioFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="4" />
+            android:text="@string/_4" />
 
         <RadioButton
             android:id="@+id/radioFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5" />
+            android:text="@string/_5" />
     </RadioGroup>
 
     <TextView
@@ -91,7 +91,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="How are you feeling?"
+        android:text="@string/how_are_you_feeling"
         app:layout_constraintEnd_toEndOf="@+id/diaryLength"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/diaryLength"
@@ -114,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Record Online"
+        android:text="@string/record_online"
         app:layout_constraintEnd_toEndOf="@+id/diarySubmit"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/diarySubmit"

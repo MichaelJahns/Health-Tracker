@@ -7,7 +7,7 @@
         android:id="@+id/labelDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Description" />
+        android:text="@string/description" />
 
     <TextView
         android:id="@+id/text_description"
@@ -18,7 +18,7 @@
         android:id="@+id/labelLength"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Length" />
+        android:text="@string/length" />
 
     <TextView
         android:id="@+id/text_length"
@@ -29,7 +29,7 @@
         android:id="@+id/labelMood"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mood" />
+        android:text="@string/mood" />
 
     <TextView
         android:id="@+id/text_mood"

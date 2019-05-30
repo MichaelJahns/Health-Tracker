@@ -64,7 +64,8 @@ public class diaryActivity extends AppCompatActivity {
         mEntryService.createEntry(description, length, mood).enqueue(new Callback<Void>() {
             @Override
             public void onResponse(Call<Void> call, Response<Void> response) {
-                Log.e("RETROFIT", "POST sent to SERVER" + response.body());
+                Log.e("RETROFIT", "POST sent to SERVER:  " + response.code());
+
 
             }
             @Override
